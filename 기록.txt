@@ -1,0 +1,51 @@
+9월 17일
+
+1. 어플리케이션에 대한 대략적인 개요 회의
+	1-1. 안드로이드 클라이언트와 기계학습 서버를 이용한 어플리케이션
+	1-2. 어플리케이션에 관한 대략적인 내용 학습
+		1-2-1. Git 사용법
+		1-2-2. 서버와 클라이언트 내용 이해
+		1-2-3. AWS의 개요
+		1-2-4. 머신러닝이란?
+		1-2-5. 웹개발로 학습하는 프론트앤드와 백앤드
+		※ 위 학습 내용에 대한 정리는 기록-1 참조.
+
+
+2. 어플리케이션 기획에 필요한 역할 분담
+  AI 머신 - 황제원
+  AWS (Amazon Web Service) - 이동일
+  FAST API - 강현우
+  안드로이드 클라이언트 - 유형서
+
+3. 다음 회의에 관한 내용 조사 전달
+	3-1. 버섯에 관련된 내용 조사
+	3-2. 자신의 역할과 관련된 내용 조사
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+
+10월 1일
+
+독버섯 자료 조사
+
+식용 버섯 감별 앱 - https://scienceon.kisti.re.kr/srch/selectPORSrchTrend.do?cn=GTB2017002751
+독버섯의 오해와 진실 - https://m.khan.co.kr/national/national-general/article/201308091600081
+난민센터 독버섯 - https://www.chosun.com/international/europe/2021/09/03/GEHVB3YEMFASHABWECONXS7GSY/
+야생 독버섯 중독 사고 - http://kimsangseo.com/bbs/board.php?bo_table=n_07&wr_id=948
+독버섯 생태도감 - https://kna.forest.go.kr/kfsweb/kfi/kfs/kna/application/publication/detailForm.do?seq=38527&mainCd=210103&searchCnd=varchar_570101&searchWrd=&mn=UKNA_04_10&orgId=&pageIndex=1&pageUnit=10
+
+※ 독버섯 분별 Git - https://www.kaggle.com/uciml/mushroom-classification
+
+개발 순서
+
+1. 안드로이드 클라이언트
+	안드로이드 
+2. FAST API or Node.Js
+	2-1. 윈도우 윈도우 통신
+	2-2. 윈도우 리눅스 통신
+3. 머신러닝 모델 제작
+4. AWS 클라우드로 작동
+
+Git 실사용
+
+ㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡㅡ
+	

@@ -1,0 +1,90 @@
+-----------------------------------------------------
+
+
+-- git
+
+https://www.youtube.com/watch?v=YFNQwo7iTNc&ab_channel=%EB%85%B8%EB%A7%88%EB%93%9C%EC%BD%94%EB%8D%94NomadCoders
+
+깃 = 	항상 파일을 주시하고 변화하는것을 감지함 
+	각기다른 파일을 변경할수있게 해줌
+	다른 에디터(개발자)와 변경사항 충돌없이 , 실수를 했는지, 변경했는지 확인가능
+
+깃 허브 = 깃을 클라우드에서 관리해줌 (깃기록을 깃허브 클라우드에)
+gitlab bitbucket 같은 사이트도 있음
+
+
+-- server-client
+
+https://www.youtube.com/watch?v=yBPyzaccbkc&ab_channel=%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9
+
+인터넷 : 서버와 클라이언트
+
+	정보 요청->
+웹브라우저 - (인터넷) - 웹서버
+          <-정보 응답
+client		      server
+
+
+
+
+
+https://www.youtube.com/watch?v=cMIM2c3YRJg&ab_channel=%EC%98%A8%EB%9D%BC%EC%9D%B8%EC%BD%94%EB%94%A9%EC%8A%A4%EC%BF%A8%EC%BD%94%EB%93%9C%EC%9E%87
+
+      요청
+서버 <- 클라이언트
+       ->
+     TEXT HTML, CSS, JAVAscript
+
+Node Js는 서버에서 응답을 해주는 프로그램을 만들 때 사용하는 프로그램
+
+
+-- aws
+
+https://www.youtube.com/watch?v=7IffSHUEIig&ab_channel=AmazonWebServicesKorea
+
+AWS (Amazon Web Service)
+인터넷을 통해 언제 어디서든 원할때 컴퓨팅 리소스를 사용할 수 있게 하는 서비스
+컴퓨팅 서비스 1.계산능력, 2. 저장, 3. 전송,배포
+
+
+
+-- 머신러닝
+
+https://www.youtube.com/watch?v=KR8ddnPjCtk&ab_channel=%EC%83%9D%ED%99%9C%EC%BD%94%EB%94%A9
+
+결정을 기계에게 맡기기위해 만든 기계학습(머신러닝)
+
+
+-- 웹개발 
+https://www.youtube.com/watch?v=ED2rOHM1od0&ab_channel=%EA%B0%9C%EB%B0%9C%ED%95%98%EB%8A%94%EC%A0%95%EB%8C%80%EB%A6%AC
+
+프론트앤드(클라이언트)
+- html
+- css
+- javascript
+
+백앤드(서버)
+- js
+- java
+- go
+- php
+- python
+- kotlin
+
+프레임워크
+- 개발 환경을 쉽고 간편하게 하기위한 기능
+- 구조화 [유지보수에 용이함]
+- 개발시간 단축
+
+백엔드 웹 프레임워크
+- 정적 사이트 제작가능
+정적사이트
+(일반적인 사이트)
+
+vs
+
+SPA 
+필요한 부분만 가져옴
+언어 js
+프론트앤드 프레임워크
+앵귤러, 리액트 , 뷰
