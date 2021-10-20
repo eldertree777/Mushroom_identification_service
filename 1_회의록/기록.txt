@@ -13,8 +13,8 @@
 
 2. 어플리케이션 기획에 필요한 역할 분담
   AI 머신 - 황제원
-  AWS (Amazon Web Service) - 이동일
-  FAST API - 강현우
+  AWS, 클라이언트 (Amazon Web Service) - 이동일
+  FAST API, SERVER - 강현우
   안드로이드 클라이언트 - 유형서
 
 3. 다음 회의에 관한 내용 조사 전달
@@ -42,7 +42,7 @@
 2. FAST API or Node.Js
 	2-1. 윈도우 윈도우 통신
 	2-2. 윈도우 리눅스 통신
-3. 머신러닝 모델 제작
+3. 머신러닝 모델 제작 - 0
 4. AWS 클라우드로 작동
 
 Git 실사용
