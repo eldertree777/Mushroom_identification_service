@@ -1,0 +1,28 @@
+gill-color: black=k,brown=n,buff=b,chocolate=h,gray=g, green=r,orange=o,pink=p,purple=u,red=e,white=w,yellow=y
+주름살 색상 검정  갈색      황토     초코          회색     초록      주황       분홍    보라       빨강    흰       노랑
+stalk-shape: enlarging=e,tapering=t
+줄기 모양    크다		가늘다
+stalk-root: bulbous=b,club=c,cup=u,equal=e,rhizomorphs=z,rooted=r,missing=?
+      뿌리  구근	    클럽?  컵       같음?         줄기               뿌리
+stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s
+줄기 표면 위 고리      섬유질    비늘     실크   매끄러운
+stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s
+줄기 표면 아래 고리          섬유질    비늘   실크    매끄러운
+stalk-color-above-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
+줄기 색상 아래 고리     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
+stalk-color-below-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
+줄기 색상 위 고리	     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
+veil-type: partial=p,universal=u
+베일 유형 부분      보편적인
+veil-color: brown=n,orange=o,white=w,yellow=y
+베일 색상  갈색      주황색      흰색     노랑색
+ring-number: none=n,one=o,two=t
+고리 번호     없음     1        2
+ring-type: cobwebby=c,evanescent=e,flaring=f,large=l,none=n,pendant=p,sheathing=s,zone=z
+고리 유형 거미줄	      무상한	화려한  커다란  없음    팬던트       피복	
+spore-print-color: black=k,brown=n,buff=b,chocolate=h,green=r,orange=o,purple=u,white=w,yellow=y
+포자 색상		검정	갈색    황토    초코          초록      주황       보라       하양    노랑
+population: abundant=a,clustered=c,numerous=n,scattered=s,several=v,solitary=y
+개체군	   풍부한       무리          많은   	드문드문	     몇몇개    혼자
+habiat: grasses=g,leaves=l,meadows=m,paths=p,urban=u,waste=w,woods=d
+발견 장소 잔디    잎        초원            길       도시      폐기물    숲
