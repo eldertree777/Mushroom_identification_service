@@ -9,9 +9,9 @@ stalk-surface-above-ring: fibrous=f,scaly=y,silky=k,smooth=s
 stalk-surface-below-ring: fibrous=f,scaly=y,silky=k,smooth=s
 줄기 표면 아래 고리          섬유질    비늘   실크    매끄러운
 stalk-color-above-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
-줄기 색상 아래 고리     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
+줄기 색상 위 고리     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
 stalk-color-below-ring: brown=n,buff=b,cinnamon=c,gray=g,orange=o,pink=p,red=e,white=w,yellow=y
-줄기 색상 위 고리	     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
+줄기 색상 아래 고리	     갈색      황토    시나몬        회색    주황      분홍    빨강   하양       노랑
 veil-type: partial=p,universal=u
 베일 유형 부분      보편적인
 veil-color: brown=n,orange=o,white=w,yellow=y
