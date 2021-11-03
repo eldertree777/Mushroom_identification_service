@@ -13,11 +13,11 @@ app = FastAPI()
 @app.get("/predict/{value}")
 async def predict(value: str):
     model = joblib.load('model/nn_model.pkl')
-    data = value.split(',')
-    
+    data= value.split(',')
+    data = list(map(int, data))
     pre = model.predict([data])
     result = pre[0]
     result = int(result)
 
-    return result
+    return str(result)
     
