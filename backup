@@ -1,0 +1,88 @@
+package com.example.mushroom;
+
+import android.app.Activity;
+import android.content.Intent;
+import android.os.AsyncTask;
+import android.os.Bundle;
+import android.util.Log;
+import android.view.View;
+import android.widget.Button;
+import android.widget.ImageView;
+import android.widget.TextView;
+import android.widget.Toast;
+
+import java.io.BufferedReader;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.net.HttpURLConnection;
+import java.net.URL;
+
+public class LastActivity extends Activity {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.last);
+        setTitle("last");
+
+        String value = getIntent().getStringExtra("value");
+        Button firstpage = (Button) findViewById(R.id.firstpage);
+        ImageView eat = (ImageView) findViewById(R.id.eat);
+        Intent thirdintent = new Intent(this, MainActivity.class);
+        TextView textt = (TextView)findViewById(R.id.textt);
+
+        AsyncTask.execute(new Runnable() {
+            @Override
+            public void run() {
+                try {
+
+                    String restapi = "http://192.168.0.5:8000/predict/";
+                    String resultt = "1";
+                    restapi = restapi + value;
+
+                    // Open the connection
+                    URL url = new URL(restapi);
+                    HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+                    conn.setRequestMethod("GET");
+                    //test00.setText(conn.toString());
+                    InputStream is = conn.getInputStream();//??
+
+
+                    // Get the stream
+                    StringBuilder builder = new StringBuilder();
+                    BufferedReader reader = new BufferedReader(new InputStreamReader(is, "UTF-8"));
+                    String line;
+                    while ((line = reader.readLine()) != null) {
+                        builder.append(line);
+                    }
+
+                    // Set the result
+                    resultt = builder.toString();
+                    if(resultt == "1"){
+                        eat.setImageResource(R.drawable.girl);
+                    }else{
+                        eat.setImageResource(R.drawable.squid);
+                    }
+
+                    //
+                    textt.setText(resultt);
+                    Toast.makeText(getApplicationContext(),resultt,Toast.LENGTH_LONG).show();
+
+                } catch (Exception e) {
+                    // Error calling the rest api
+                    Log.e("REST_API", "GET method failed: " + e.getMessage());
+                    e.printStackTrace();
+                }
+            }
+        });
+
+        //eat.setImageResource(R.drawable.squid);
+        firstpage.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(thirdintent);
+            }
+        });
+
+    }
+
+}
